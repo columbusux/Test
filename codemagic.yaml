@@ -1,8 +1,7 @@
  workflows: 
   ios-release: 
     name: Tiwee 
-    environment: 
-      << : *env_versions   
+     
     
     
     
