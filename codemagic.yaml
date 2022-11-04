@@ -1,10 +1,4 @@
-workflows:
-  my-workflow:
-    name: Tiwee
-
-
-  
-   workflows: 
+ workflows: 
   ios-release: 
     name: Tiwee 
     environment: 
