@@ -54,11 +54,18 @@ dependencies:
 
 
 
+definitions: 
+  env_versions: &env_versions
+    xcode: latest 
+    cocoapods: default
 
 
 
-
-
+workflows: 
+  ios-release: 
+    name: 0.1 
+    environment: 
+      << : *env_versions
 
 
 
