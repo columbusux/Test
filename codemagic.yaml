@@ -63,7 +63,7 @@ definitions:
 
 workflows: 
   ios-release: 
-    name: 0.1 
+    name: twieet
     environment: 
       << : *env_versions
 
